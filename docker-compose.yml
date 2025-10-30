@@ -1,0 +1,13 @@
+version: '3.9'
+services:
+  mlops-md:
+    build: .
+    container_name: mlops-md
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+    volumes:
+      - .:/app
+    command: npm start

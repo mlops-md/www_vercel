@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg: #0b1020;
+}
+
+body{ background-color: var(--bg); }
+
+.glow{ box-shadow: 0 6px 30px rgba(124,77,255,0.12), 0 0 18px rgba(139,233,253,0.06); }
+
+@media (prefers-reduced-motion: no-preference){
+  .animate-fade { animation: fade .6s ease both; }
+  @keyframes fade{ from{opacity:0; transform:translateY(6px)} to{opacity:1; transform:none} }
+}
