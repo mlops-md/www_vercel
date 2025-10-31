@@ -1,3 +1,6 @@
+"use client";
+
+
 export default function Hero(){
   return (
     <section className="rounded-3xl p-8 bg-gradient-to-br from-white/2 to-transparent border border-white/6">

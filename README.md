@@ -1,4 +1,4 @@
-# MLOps.md — Next.js Futuristic Template
+    # MLOps.md — Next.js Futuristic Template (Final)
 
 ## Local (Docker)
 1. Build and run with Docker Compose:
@@ -7,22 +7,16 @@
    ```
 2. Open http://localhost:3000
 
-## Run locally without Docker
+## Run locally (dev)
 1. Install deps:
    ```bash
    npm install
    ```
-2. Dev:
+2. Start dev server:
    ```bash
    npm run dev
    ```
-3. Build & start:
-   ```bash
-   npm run build
-   npm start
-   ```
 
-## Deploy to Vercel
-1. Push repository to GitHub.
-2. Import project in Vercel (Import Project -> Git Repository).
-3. Add domain `mlops.md` in Vercel Settings -> Domains and follow DNS instructions.
+Notes:
+- Project includes TypeScript, Tailwind CSS, Framer Motion with a typed MotionSection component.
+- If you deploy to Vercel, import the repository and set Root directory to project root.
